@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	<Resource name="jdbc/animal"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.jdbc.Driver"
+            factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" 
+            username="darrenH"
+            password="3249"
+            url="jdbc:mysql://127.0.0.1:3306/animal?useSSL=false"
+            maxWait="5000" 
+	/>
+</context> 
+
